@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Welcome to the Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="common/MainHeader.css">
+</head>
+<body>
+
+    <section class="header">
+        <nav class="navbar">
+            <div class="nav-links">
+                <div class="logo"><a href="#">goTravel</a></div>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">QUIZ</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <div class="start_btn">
+        <h3>HELLO !!!</h3>
+        <h3>Welcome to the Test</h3>
+        <h3>So here your knowledge about traveling <br>
+            will be measured</h3>
+        <h3>Then click "Start Now" button</h3>
+        <button>Start Now</button>
+    </div>
+
+    <div class="rule_area"><!-- rule area -->
+        <div class="rule-title"><span>Warning</span></div>
+        <div class="rules">
+            <div class="rule">1.You will have <span>15 second</span> for each quetion</div>
+            <div class="rule">2.If you are select answer, You <span> can't undo </span> it</div>
+            <div class="rule">3.Your marks basis on your correct answers</div>
+            <div class="rule">4.<span>Do not</span> refresh page</div>
+            <div class="rule"><center><b>Good luck for your test !!!</b></center></div>
+        </div>
+        <div class="buttons">
+            <button class="exit">Exit</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    
+    <div class="quiz_area"><!-- Quiz area -->
+        <header>
+            <div class="title">Travel GO is Testing you.......     </div>
+            <div class="timer">
+                <div class="time_over">Time end</div>
+                <div class="timer_count">10</div>
+            </div>
+            
+        </header>
+        <section>
+            <div class="questionsx"><!--it provid by JS--></div>
+            <div class="answerx"><!--it provid by JS--></div>
+        </section>
+
+        
+        <footer><!-- footer of Quiz area -->
+            <div class="total_que"><!--it provid by JS--></div>
+            <button class="next_btn">Next</button>
+        </footer>
+    </div>
+
+    <div class="result_area"><!-- Result area -->
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Congragulations!!! You've successfuly completed the Quiz!</div>
+        <div class="score_text"><!--it provid by JS--></div>
+        <div class="buttons">
+            <button class="restart">Retake</button>
+            <button class="exit">Close</button>
+        </div>
+    </div>
+
+    
+    
+
+    <script src="script.js"></script><!-- connect JS file to Html -->
+
+
+</body>
+</html>
